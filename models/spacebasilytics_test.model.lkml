@@ -12,6 +12,8 @@ persist_with: spacebasilytics_test_default_datagroup
 
 explore: bbmp_ccc_registrations {}
 
+explore: avg_resolution_time {}
+
 explore: bbmp_grievances {}
 
 explore: bbmp_grievance_options {}
