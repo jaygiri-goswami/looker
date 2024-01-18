@@ -10,6 +10,8 @@ datagroup: spacebasilytics_test_default_datagroup {
 
 persist_with: spacebasilytics_test_default_datagroup
 
+explore: block_wise_complaints {}
+
 explore: bbmp_ccc_registrations {}
 
 explore: avg_resolution_time {}
