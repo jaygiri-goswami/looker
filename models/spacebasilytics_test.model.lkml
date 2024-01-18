@@ -14,6 +14,8 @@ explore: bbmp_ccc_registrations {}
 
 explore: avg_resolution_time {}
 
+explore: session_avg_time {}
+
 explore: bbmp_grievances {}
 
 explore: bbmp_grievance_options {}
