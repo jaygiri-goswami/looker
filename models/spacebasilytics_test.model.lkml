@@ -1477,6 +1477,12 @@ explore: complaints {
     relationship: many_to_one
   }
 
+  join: student_room {
+    type: left_outer
+    sql_on: ${complaints.student_id} = ${student_room.student_id} ;;
+    relationship: many_to_one
+  }
+
   join: colleges {
     type: left_outer
     sql_on: ${complaints.college_id} = ${colleges.id} ;;
