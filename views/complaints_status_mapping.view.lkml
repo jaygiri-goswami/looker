@@ -22,7 +22,7 @@ view: complaints_status_mapping {
     sql: ${TABLE}.statusmap ;;
   }
 
-  dimension: count {
+  measure: count {
     type: number
     sql: ${TABLE}.`count(*)` ;;
   }
