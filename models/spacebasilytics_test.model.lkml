@@ -2,6 +2,7 @@ connection: "spacebasilytics"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+# include: "/dashboards/*.dashboard"
 
 datagroup: spacebasilytics_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
