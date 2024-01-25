@@ -1577,6 +1577,22 @@ explore: complaints {
     sql_on: ${asset.item_master_id} = ${item_master.id} ;;
     relationship: many_to_one
   }
+
+  access_filter: {
+    field: complaints.college_id
+    user_attribute: college_id
+  }
+
+  access_filter: {
+    field: complaints.hostel_id
+    user_attribute: hostel_id
+  }
+
+  access_filter: {
+    field: complaints.block_id
+    user_attribute: block_id
+  }
+
 }
 
 explore: complaints_escalate {
