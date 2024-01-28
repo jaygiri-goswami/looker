@@ -5,7 +5,7 @@ view: block_wise_complaints {
       count(*)
       FROM complaints c
       JOIN student_room sr ON sr.student_id = c.student_id AND sr.college_id = c.college_id
-      WHERE c.college_id = 131
+      WHERE c.college_id = 56
       GROUP BY sr.block_id ;;
   }
 
