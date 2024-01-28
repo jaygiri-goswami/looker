@@ -13,7 +13,7 @@ view: complaints_status_mapping {
       ELSE 'Cancelled'
     END AS statusmap,
     count(*) FROM complaints
-      WHERE college_id = 131
+      WHERE college_id = 56
       GROUP BY statusmap;;
   }
 
